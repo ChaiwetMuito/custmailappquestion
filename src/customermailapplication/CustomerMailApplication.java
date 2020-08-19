@@ -23,6 +23,12 @@ public class CustomerMailApplication {
             case "Regular":
                 customer = new RegularCustomer();
                 break;
+            case "Delinquent":
+                customer = new DelinquentCustomer();
+                break;
+            case "Mountain":
+                customer = new MountainCustomer();
+                break;
             //complete MountainCustomer
             //complete DelinquentCustomer 
         }
